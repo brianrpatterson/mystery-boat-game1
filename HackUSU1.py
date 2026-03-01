@@ -90,7 +90,7 @@ def endgame():
     print('Welcome to the conclusion. As you are likely aware it appears you are the killer. Unfortunately for you the other people on the boat realized this and tie you up. As soon as you land, police come onboard and arrest you. Now you wait in jail for your sentencing wishing you had dried all the water better.')
 
 while True:
-    user_command = input('What please enter a command. > ')
+    user_command = input('Please enter a command. > ')
     if user_command == 'help':
         print('''The available commands are:
             "Bow" - move to the room closer to the bow of current if available
@@ -122,4 +122,5 @@ while True:
         break
     else:
         print('Sorry that isn\'t a recognized command. Please try again or type "help" for a list of possible commands')
+
 
